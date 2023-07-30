@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Debroop's portfolio</title>
+    <script src="https://kit.fontawesome.com/c3d9aba201.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="pictures/Debroop_logo_f.png" alt="logo" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Coding Profiles</a></li>
+                <li><a href="#services1">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times"></i>
+            </ul>
+            <i class="fas fa-bars"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer and wildlife photographer</p>
+            <h1>Hi, I'm Debroop <span>Ghosh</span></span><br> Btech undergrad From SRMIST</h1>
+        </div>
+    </div>
+  </div>
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="pictures/IMG_20211204_135036798.jpg" alt="my photo">
+            </div>
+            <div class="about-col-2">  
+                <h1 class="sub-title">About Me <i class="fa-solid fa-user"></i></h1>
+                <p>Hello and welcome to my portfolio! I am a BTech CSE undergraduate student from SRMIST Chennai. I am currently specializing in Cyber Security and aspire to become a skilled web developer in the future.
+
+                    Apart from my academic pursuits, I have a strong passion for wildlife photography and love to travel to capture stunning images of nature. Through my photography, I aim to showcase the beauty of wildlife and raise awareness about the importance of preserving our natural resources.
+                    
+                    Thank you for visiting my portfolio, and I hope you enjoy my work!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('courses')">Courses</p>
+                    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>Coding</span><br>C <br> C++<br> Python</li>
+                        <li><span>Photography and Editing</span><br>Snapseed <br>Lightroom <br>Canva</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>Petify</span><br>Developed a social media platform for pets as a web development project. The platform is designed to connect pet owners
+                            and allow them to share photos, stories, and advice.</li>
+                        <li><span>Hulu Clone Website</span><br>Designed a simple Movie and Sports Streaming website UI</li>
+                        <li><span>Email Spam Classifier</span><br> Created Python email spam classifier with 95 accuracy using
+                            ML algorithms and natural language processing techniques.
+                            Collaborated on GitHub with team of developers, contributing
+                            to feature engineering and optimization</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>Btech CSE w/s CyberSecurity at SRMIST,Chennai</li>
+                        <li><span>2019-2021</span><br>DAV Public School, Siliguri </li>
+                        <li><span>2008-2019</span><br> Birla Divya Jyoti, Siliguri</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="courses">
+                    <ul>
+                        <li>The Complete 2023 Web Development Bootcamp,<span>Udemy</span><br></li>
+                        <li></li>
+                        <li><span>AWS Academy</span> Machine Learning Foundations<br></li>
+                        <li></li>
+                        <li>Introduction to Cybersecurity- <span>Cisco Networking Academy</span> <br></li>
+                        <li>    </li>
+                        <li>Networking 
+                            Essentials- <span>Cisco Networking Academy</span>  </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+  </div>  
+  <!-----------------------services-->
+  <div id="services1">
+    <div class="services">
+        <div class="container">
+            <h1 class="sub-title">My Services <i class="fa-solid fa-handshake"></i></h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>              <h2>Web Design</h2>
+                    <p>As a frontend web developer, I specialize in creating visually appealing and user-friendly websites. I offer a range of services to help bring your website to life.
+                        
+    
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-camera"></i>                <h2>Photo Editing</h2>
+                    <p>Welcome to my wildlife photography and photo editing services! I specialize in capturing animals in their natural habitat and creating images that showcase their unique personalities. I also offer photo editing services to enhance the beauty and quality of your images. Contact me to capture stunning and memorable images of wildlife.
+    
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <h2>Logo Design</h2>
+                    <p>Welcome to my logo design services! As a hobbyist, I enjoy creating unique and simple logos that capture the essence of your brand.
+                        Contact me to create a logo that represents your brand identity.
+    
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+      </div>
+  </div>
+ 
+<!------------------------------------portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Coding Profiles <i class="fa-sharp fa-solid fa-code"></i></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="pictures/github.jpeg" alt="github">
+                <div class="layer">
+                    <h3>Github</h3>
+                    <a href="https://github.com/debroopghosh11"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pictures/hackerank1.png" alt="hackerank">
+                <div class="layer">
+                    <h3>HackerRank</h3>
+                    <a href="https://www.hackerrank.com/dd3538"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pictures/leetcode.png" alt="leetcode">
+                <div class="layer">
+                    <h3>LeetCode</h3>
+                    <a href="https://leetcode.com/Debroop11/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+<!------------contact-------------------->
+<div id="contact">
+    <div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title" >Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>debroopghosh2012@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>8343892455</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/_deb.roop_11_/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UChWIQtfw9WtecsEGWEXK5_w"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/debroop-ghosh-a20270230/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#https://discord.com/@HEISENBERG11#1467"><i class="fa-brands fa-discord"></i></a>
+            </div>
+            <a href="pictures/CV_DEBROOPGHOSH.pdf" download class="btn btn 2">Download CV <i class="fa-solid fa-download"></i></a>
+            
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="16" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+
+    </div>  
+    </div>
+    <div class="copyright">
+        <p>Copyright © Debroop Ghosh</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+</script> 
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwMgBwPqkc3ZCqmsFQ7l5_Ua0I14FaO6JZYCz24v_Bl2Zpia14UzxJ90OHHSqGw9TvL8A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully!!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+            
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
